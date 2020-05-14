@@ -6,11 +6,17 @@
 components, software, analysis and intelligent functions) via the Internet, i.e. the cloud
 Major clod service provider are (aws, azure, GCP)
 
-Amazon
+#Cloud Terminlology
+1 High Avaliablity: (eg google drive)
+2 Fault tolerant: (new instance is created at same tilme when running instance failed)
+3 Scalability: AS instantaneously no of user increases (eg in evening in netflix) simultaneously no of instance is increased
+4 Elasticity: As no of user decreases (eg morining time in netflix) simultaneously no of instance is decreased
+
+*Amazon
 EC2= Elastic computer cloud
 S3- simple storage service
 VPC- virtual private cloud
-RDS- Relational Database Service
+RDS- Relational Database Service (eg user list,user personalised catalogue(for mov), new user adding, old user login, logout)
 
 vpc- vpc is your private section of aws where you can place your aws resources and allow/restrict others to access to them
 
@@ -20,8 +26,4 @@ so, EC2 is a virtual computer that u can use for whatever u like
 A server can handle only a limited amount of users (normally 1 million for medium server)
 RDS- is aws provisoned database service
 
-#Cloud Terminlology
-1 High Avaliablity: (eg google drive)
-2 Fault tolerant: (new instance is created at same tilme when running instance failed)
-3 Scalability: AS instantaneously no of user increases (eg in evening in netflix) simultaneously no of instance is increased
-4 Elasticity: As no of user decreases (eg morining time in netflix) simultaneously no of instance is decreased
+
