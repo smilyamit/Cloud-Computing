@@ -11,3 +11,7 @@ EC2= Elastic computer cloud
 S3- simple storage service
 VPC- virtual private cloud
 RDS- Relational Database Service
+
+vpc- vpc is your private section of aws where you can place your aws resources and allow/restrict others to access to them
+For understanding 
+EC2 = basic computer with internet = EC2 server = EC2 instance
