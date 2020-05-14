@@ -5,3 +5,9 @@
 =>Cloud computing is basically the provision of providing computing resources (e.g. servers, storage, databases, network 
 components, software, analysis and intelligent functions) via the Internet, i.e. the cloud
 Major clod service provider are (aws, azure, GCP)
+
+Amazon
+EC2= Elastic computer cloud
+S3- simple storage service
+VPC- virtual private cloud
+RDS- Relational Database Service
