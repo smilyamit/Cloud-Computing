@@ -25,7 +25,7 @@ vpc- vpc is your private section of aws where you can place your aws resources a
 EC2 = basic computer with internet = EC2 server = EC2 instance (Virtual Computer with Processing power but no storage)
 so, EC2 is a virtual computer that u can use for whatever u like
 
-RDS- is aws provisoned database service for organizing user informations)
+RDS- is aws provisoned database service for organizing user informations eg sql)
      (eg user list,user personalised catalogue(for mov), new user adding, old user login, logout)
 
 S3- Amazon S3 is a large datastorage bucket (in petabyte). It is used to store data of customer for permanent usage
@@ -34,6 +34,15 @@ S3- Amazon S3 is a large datastorage bucket (in petabyte). It is used to store d
 
 
 AWS region: aws data center prime location with 1 or more Avalability zone
+
+IAS: Identity and access management
+DynamoDB: A database that uses no sql
+cloudwatch: an aws service to watch health of instance
+SNS: simple notification service (based on cloudwatch)
+ELB: Elastic load balancer: A toolthat distribute incoming web traffic
+Auto Scaling : For upscaling and down scaling
+Route S3: an aws that do mangt of website domain and DNS record
+Lambda: Serverless computing allow code to run without setup and maintenance of actual servers
 
 
 
