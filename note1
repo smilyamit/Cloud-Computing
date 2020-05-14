@@ -11,19 +11,47 @@ Major clod service provider are (aws, azure, GCP)
 2 Fault tolerant: (new instance is created at same tilme when running instance failed)
 3 Scalability: AS instantaneously no of user increases (eg in evening in netflix) simultaneously no of instance is increased
 4 Elasticity: As no of user decreases (eg morining time in netflix) simultaneously no of instance is decreased
-
+ Amazon 
+A server can handle only a limited amount of users (normally 1 million for medium server)
 *Amazon
-EC2= Elastic computer cloud
+EC2= Elastic computer cloud 
 S3- simple storage service
 VPC- virtual private cloud
-RDS- Relational Database Service (eg user list,user personalised catalogue(for mov), new user adding, old user login, logout)
-
+RDS- Relational Database Service 
+    
 vpc- vpc is your private section of aws where you can place your aws resources and allow/restrict others to access to them
+     A VPC can be described as your own "private section" of AWS
 
-EC2 = basic computer with internet = EC2 server = EC2 instance
+EC2 = basic computer with internet = EC2 server = EC2 instance (Virtual Computer with Processing power but no storage)
 so, EC2 is a virtual computer that u can use for whatever u like
 
-A server can handle only a limited amount of users (normally 1 million for medium server)
-RDS- is aws provisoned database service
+RDS- is aws provisoned database service for organizing user informations)
+     (eg user list,user personalised catalogue(for mov), new user adding, old user login, logout)
+
+S3- Amazon S3 is a large datastorage bucket (in petabyte). It is used to store data of customer for permanent usage
+   (like netflix stores all videos file there so that it can provide any video to any instance whenever required)
+   Generally data storage is not done on ec2 instances because there is always addition or sub of instances
+
+
+AWS region: aws data center prime location with 1 or more Avalability zone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
