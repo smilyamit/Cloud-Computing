@@ -35,7 +35,7 @@ S3- Amazon S3 is a large datastorage bucket (in petabyte). It is used to store d
 
 AWS region: aws data center prime location with 1 or more Avalability zone
 
-IAS: Identity and access management
+IAS: Identity  Access Management
 DynamoDB: A database that uses no sql
 cloudwatch: an aws service to watch health of instance
 SNS: simple notification service (based on cloudwatch)
@@ -43,6 +43,8 @@ ELB: Elastic load balancer: A toolthat distribute incoming web traffic
 Auto Scaling : For upscaling and down scaling
 Route S3: an aws that do mangt of website domain and DNS record
 Lambda: Serverless computing allow code to run without setup and maintenance of actual servers
+
+
 
 
 
