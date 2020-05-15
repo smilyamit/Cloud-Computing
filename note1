@@ -44,6 +44,71 @@ Auto Scaling : For upscaling and down scaling
 Route S3: an aws that do mangt of website domain and DNS record
 Lambda: Serverless computing allow code to run without setup and maintenance of actual servers
 
+Area of field related to aws solution architect associate
+Less important:
+
+ML, Analytics
+desktop and app streaming
+mgt and governence
+Migration and transfer
+
+More import:
+security, identify and compliance
+Network and content delivery (Route53: Amazon DNS Service , VPC)
+
+Compute (or EC2 and lambda)
+Storage(s3)
+Database( RDBS and DynamoDB and RedShift)
+
+
+S3 has following feature:
+Tired  Storage Available
+Lifecycle Management
+Versioning
+Encryption MFA delete
+Seciure your data using access control list and bucket policies
+
+S3 storage classses
+1) S3 Standard
+2) S3-IA (infrequently accessed)
+3) S3 One Zone -1A (no multiple availability or s3rrs)
+4) S3- Intelligent Tiering (Automatically moving data to most cost effective access tier
+5) S3 Glacier (good for data archieve, Retrieval time from minute to hour)
+6) S3 Glacier Deep Archieve- 12 hour retrieval time
+Charge for s3 in follwing:
+=> storage , requests, storage, storage management pricing, data trandfer pricing, data transfer pricing, transfer accn
+   cross region replication pricing
+   
+=> Transfer acceleration take advantage of globally distributed edge locations
+tips for exam
+remember that s3 is object-based i.e allow u to upload files
+files can be from 0 byte to 5tb
+there is unlimited storage
+files are stored in buckets
+s3 is a universal namespce, name must be unique globally for your s3
+not suitable to install an operating system on
+successful uploads will generate http 200 ststus code
+u can turn on mfa delete
+
+Key fundametal of s3:
+key (name of object)
+value (data and is made of sequence of bytes)
+version id (important for versioning)
+metadata (data abt data u r storing)
+subresources: (access control list, torrent)
+
+read  after write consistency
+eventual consistency for overwrite
+
+
+
+
+
+   
+   
+
+
+
 
 
 
